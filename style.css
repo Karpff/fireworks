@@ -1,0 +1,53 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#settings
+{
+  position: absolute;
+  bottom: -122px;
+  right: -1px;
+  border-top-left-radius: 5px;
+  padding: 7px;
+  font-family: verdana;
+  color: white;
+  border: 1px solid grey;
+  font-size: 12px;
+  transition: 100ms;
+  cursor: default;
+}
+
+#settings:hover
+{
+  bottom: 0;
+  transition: 100ms;
+}
+
+#settings div
+{
+  text-align: center;
+}
+
+#settings div span
+{
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+#high, #medium, #low, #rare, #trail
+{
+  cursor: pointer;
+}
+
+#medium
+{
+  text-decoration: underline;
+}
+
+hr
+{
+  border: 0.5px solid grey;
+}
